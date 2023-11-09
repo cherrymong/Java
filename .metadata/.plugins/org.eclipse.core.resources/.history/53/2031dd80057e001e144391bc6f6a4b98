@@ -1,0 +1,10 @@
+package mydate;
+
+public class MyDate {
+	
+	public int MyDate;
+	
+	public int date1;
+	public int date2;
+
+}

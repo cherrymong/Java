@@ -1,0 +1,21 @@
+package practice2;
+
+
+
+public class practice1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// Q1.두 정수를 입력받아 합을 구하여 출력하는 프로그램을 작성하라. 키보드 입력은 Scanner 클래스를 이용하라.
+		
+		Scanner sc=new scanner(System.in);
+		System.out.println(i+j);
+		int i =10; int j=20;
+		
+		
+		
+
+	}
+
+}

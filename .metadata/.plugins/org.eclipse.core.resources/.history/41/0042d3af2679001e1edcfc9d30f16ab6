@@ -1,0 +1,38 @@
+package switchtest;
+
+public class SwitchTest1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1~12월 까지의 일수를 출력하는 프로그램 작성하기
+		// 1,3,5,7,8,10,12 = 31일
+		// 4,6,9,11 = 30일
+		// 2 = 28일
+				
+				
+		int ranking = 1;
+		char medalColor;
+		switch(ranking) {
+		case 1 :
+			medalColor = 'G';
+		    break;
+		case 2 :
+			medalColor = 'S';
+			break;
+		case 3 :
+			medalColor = 'B';
+			break;
+		default :
+			medalColor = 'A';
+			break;
+		}
+		System.out.println(ranking + "등의 메달 색은" + medalColor + "입니다.");
+	}
+}
+
+	
+		
+		
+
+	
+
