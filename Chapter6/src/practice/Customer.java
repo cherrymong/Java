@@ -15,7 +15,6 @@ public class Customer {
 		cafe.takeCoffee(price);
 		money -= price;
 	}
-	
 	public void takeKongStore(kong_store cafe, int price) {
 		cafe.takeCoffee(price);
 		money -= price;

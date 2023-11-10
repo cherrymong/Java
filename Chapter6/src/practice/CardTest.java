@@ -8,6 +8,13 @@ public class CardTest {
 			Card card = new Card();
 			card.showInfo();
 		}
+		
+		// 3번 문제
+		CardCompany cardCompany = CardCompany.getInstance();
+		for(int i=100; i<200; i++) {
+			Card card = cardCompany.createCard();
+			card.showInfo();
+		}
 
 	}
 
